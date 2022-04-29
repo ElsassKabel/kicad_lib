@@ -1,0 +1,69 @@
+(footprint "CHERRY_MX_HOTSWAP" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 626C4410)
+  (descr "Cherry MX style switch with hotswap socket")
+  (solder_mask_margin 0.1)
+  (attr smd)
+  (fp_text reference ">NAME" (at 0 3.81 unlocked) (layer "F.SilkS") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 9b79e4e9-50fa-4fbd-b495-c50c8a5c8a61)
+  )
+  (fp_text value "cherry-mx-hotswap" (at 0 1 unlocked) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp d5d84041-f058-46bc-bcac-bc4dad182f69)
+  )
+  (fp_text user "${REFERENCE}" (at 0 2.5 unlocked) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp ece1120e-83f7-4ee5-8aff-6dd4668f5cf4)
+  )
+  (fp_line (start 4.8006 -6.7564) (end 0.7874 -6.7564) (layer "B.SilkS") (width 0.12) (tstamp 02426097-2343-483f-9184-b1021f11f671))
+  (fp_line (start 4.8006 -6.7564) (end 4.8006 -2.7432) (layer "B.SilkS") (width 0.12) (tstamp 0757ecdd-1a4f-4f75-825e-ff54cc68895a))
+  (fp_line (start 2.921 -0.8636) (end -6.1214 -0.8636) (layer "B.SilkS") (width 0.12) (tstamp 20dc8b19-954b-4369-b580-dab885da8ae2))
+  (fp_line (start -6.1214 -4.8768) (end -1.0922 -4.8768) (layer "B.SilkS") (width 0.12) (tstamp 3e7ae60c-e895-4a5a-a7e3-6a535a3a8283))
+  (fp_line (start -6.1214 -0.8636) (end -6.1214 -4.8768) (layer "B.SilkS") (width 0.12) (tstamp 77db9235-89b0-4b41-9039-5e76b93e13e4))
+  (fp_arc (start 0.7874 -6.7564) (mid 0.236878 -5.427322) (end -1.0922 -4.8768) (layer "B.SilkS") (width 0.12) (tstamp 830d86b3-78eb-4c6c-a352-bf19ba50bd18))
+  (fp_arc (start 4.8006 -2.7432) (mid 4.250078 -1.414122) (end 2.921 -0.8636) (layer "B.SilkS") (width 0.12) (tstamp a2abc84b-8987-4a83-b329-dceb6c04fe7c))
+  (fp_poly (pts
+      (xy 0.7112 -6.0452)
+      (xy 0.3556 -5.4356)
+      (xy -0.3556 -4.9276)
+      (xy -1.2192 -4.826)
+      (xy -6.096 -4.826)
+      (xy -6.096 -0.9144)
+      (xy 2.8956 -0.9144)
+      (xy 3.6576 -1.0668)
+      (xy 4.318 -1.5748)
+      (xy 4.6736 -2.286)
+      (xy 4.7244 -2.9972)
+      (xy 4.7244 -6.7056)
+      (xy 0.8128 -6.7056)
+    ) (layer "B.SilkS") (width 0.12) (fill solid) (tstamp 258fcb41-7033-4835-9fdf-423793cb23b3))
+  (fp_rect (start -7 -7) (end 7 7) (layer "F.SilkS") (width 0.12) (fill none) (tstamp 3840e91e-0efb-47a3-bd0e-13b143df20fb))
+  (fp_rect (start -9.525 -9.525) (end 9.525 9.525) (layer "Dwgs.User") (width 0.12) (fill none) (tstamp b7c0da7b-7c85-4651-85c5-22caf15fc674))
+  (pad "" np_thru_hole circle (at -5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers F&B.Cu *.Mask)
+    (solder_mask_margin 0.1016) (tstamp 0f783898-8b67-4339-aa57-4579dfddbfb6))
+  (pad "" np_thru_hole circle (at 0 0) (size 4.0894 4.0894) (drill 4.0894) (layers F&B.Cu *.Mask)
+    (solder_mask_margin 0.1016) (tstamp 76a16b35-d931-4996-8938-9da762e9492c))
+  (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers F&B.Cu *.Mask)
+    (solder_mask_margin 0.1) (tstamp 8619b003-4ddf-4ed8-abee-c68340460103))
+  (pad "" np_thru_hole circle (at 5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers F&B.Cu *.Mask)
+    (solder_mask_margin 0.1016) (tstamp 9bfedecc-3f86-4a36-ab15-24a0f83e5efc))
+  (pad "" np_thru_hole circle (at 2.54 -5.08) (size 3 3) (drill 3) (layers F&B.Cu *.Mask)
+    (solder_mask_margin 0.1) (tstamp f178515b-b448-485d-b4f3-17f976e8a7a0))
+  (pad "1" smd rect (at -7.493 -2.54) (size 2.55 2.5) (layers "B.Cu" "B.Paste" "B.Mask")
+    (solder_mask_margin 0.1) (tstamp 5ce2b821-ee51-47bf-a99a-99a689e122d8))
+  (pad "2" smd rect (at 6.223 -5.08) (size 2.55 2.5) (layers "B.Cu" "B.Paste" "B.Mask")
+    (solder_mask_margin 0.1) (tstamp 353d8f56-c879-4848-ac81-f1be0cc16cb5))
+  (group "" (id 6b1d8153-1929-422b-bfbd-285ab66db86b)
+    (members
+      02426097-2343-483f-9184-b1021f11f671
+      0757ecdd-1a4f-4f75-825e-ff54cc68895a
+      20dc8b19-954b-4369-b580-dab885da8ae2
+      258fcb41-7033-4835-9fdf-423793cb23b3
+      3e7ae60c-e895-4a5a-a7e3-6a535a3a8283
+      77db9235-89b0-4b41-9039-5e76b93e13e4
+      830d86b3-78eb-4c6c-a352-bf19ba50bd18
+      a2abc84b-8987-4a83-b329-dceb6c04fe7c
+    )
+  )
+)
