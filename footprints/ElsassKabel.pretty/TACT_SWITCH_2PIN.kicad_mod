@@ -1,0 +1,23 @@
+(footprint "TACT_SWITCH_2PIN" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 626D3AF3)
+  (descr "Tactile switch 2 pins")
+  (solder_mask_margin 0.1)
+  (attr through_hole)
+  (fp_text reference "REF**" (at 0 -4 unlocked) (layer "F.SilkS") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp d348d117-4b9d-47d4-9150-4630fb2e9cf8)
+  )
+  (fp_text value "TACT_SWITCH_2PIN" (at 0 4.5 unlocked) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp d98ff9ae-e1f8-4424-8c9a-9e8a74700dc5)
+  )
+  (fp_text user "${REFERENCE}" (at 0 6 unlocked) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 8fec7a85-0782-4e68-84e4-1af1e7efedfe)
+  )
+  (fp_rect (start -1.5 -0.75) (end 1.5 0.75) (layer "F.SilkS") (width 0.15) (fill none) (tstamp 116d155f-066d-4394-8897-f470a7ea739b))
+  (fp_rect (start -3 -1.75) (end 3 1.75) (layer "F.SilkS") (width 0.15) (fill none) (tstamp f1ad3f74-02d3-4eac-9cda-900ca8378735))
+  (pad "1" thru_hole circle (at -3.25 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) (tstamp 5338c7e8-2840-4211-817d-a6a02bfa9066))
+  (pad "2" thru_hole circle (at 3.25 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) (tstamp db00ed9d-5cbd-42e1-a367-f32e41a8348a))
+)
