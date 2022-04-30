@@ -1,6 +1,6 @@
 (footprint "CHERRY_MX_HOTSWAP_2_SIDES" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 626C4428)
+  (tedit 626CF5E2)
   (descr "Cherry MX style switch with hotswap socket (2 sides)")
   (solder_mask_margin 0.1)
   (attr smd)
@@ -21,7 +21,7 @@
   (fp_line (start 4.8006 -6.7564) (end 0.7874 -6.7564) (layer "B.SilkS") (width 0.12) (tstamp 4375774b-2b03-4e7b-8d7e-6daba59b99ac))
   (fp_line (start 2.921 -0.8636) (end -6.1214 -0.8636) (layer "B.SilkS") (width 0.12) (tstamp a38dd7a0-2b9e-476c-b632-2907dd07a88d))
   (fp_line (start -6.1214 -4.8768) (end -1.0922 -4.8768) (layer "B.SilkS") (width 0.12) (tstamp e03e61ca-23ea-46be-bad8-66ee27ce7be6))
-  (fp_rect (start -7 -7) (end 7 7) (layer "B.SilkS") (width 0.12) (fill none) (tstamp 3b28cebe-4e84-46a5-af15-962cd5b3d662))
+  (fp_rect (start -7 -7) (end 7 7) (layer "B.SilkS") (width 0.15) (fill none) (tstamp 3b28cebe-4e84-46a5-af15-962cd5b3d662))
   (fp_arc (start 4.8006 -2.7432) (mid 4.250078 -1.414122) (end 2.921 -0.8636) (layer "B.SilkS") (width 0.12) (tstamp 4bcc5ae1-145e-46d7-92d5-d611a1d6baf6))
   (fp_arc (start 0.7874 -6.7564) (mid 0.236878 -5.427322) (end -1.0922 -4.8768) (layer "B.SilkS") (width 0.12) (tstamp b5253622-275c-488c-850c-108e624348e3))
   (fp_poly (pts
@@ -44,7 +44,7 @@
   (fp_line (start -2.9464 -0.8636) (end 6.096 -0.8636) (layer "F.SilkS") (width 0.12) (tstamp 9acd0284-010d-4802-96d0-fa90781334ba))
   (fp_line (start 6.096 -0.8636) (end 6.096 -4.8768) (layer "F.SilkS") (width 0.12) (tstamp c7b701da-2db5-47dd-bc5f-d3f473ce5918))
   (fp_line (start -4.826 -6.7564) (end -0.8128 -6.7564) (layer "F.SilkS") (width 0.12) (tstamp d05a8a57-532c-4506-871c-b337dab47fdc))
-  (fp_rect (start -7 -7) (end 7 7) (layer "F.SilkS") (width 0.12) (fill none) (tstamp 3db993b2-028e-4fe5-ae77-9af003e87612))
+  (fp_rect (start -7 -7) (end 7 7) (layer "F.SilkS") (width 0.15) (fill none) (tstamp 3db993b2-028e-4fe5-ae77-9af003e87612))
   (fp_arc (start -2.9464 -0.8636) (mid -4.275478 -1.414122) (end -4.826 -2.7432) (layer "F.SilkS") (width 0.12) (tstamp 8a2eb2bc-2784-4fa0-86f1-ad0762ac8e56))
   (fp_arc (start 1.0668 -4.8768) (mid -0.262278 -5.427322) (end -0.8128 -6.7564) (layer "F.SilkS") (width 0.12) (tstamp def60589-179c-4f0b-b57f-c2654cc8e681))
   (fp_poly (pts
