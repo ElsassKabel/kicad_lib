@@ -464,27 +464,27 @@
     (symbol "SWITCH_2PIN_0_1"
       (polyline
         (pts
-          (xy 0 2.54)
-          (xy 0 7.62)
+          (xy 0 1.905)
+          (xy 0 4.445)
         )
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type none))
       )
       (polyline
         (pts
-          (xy 3.81 2.54)
-          (xy -3.81 2.54)
+          (xy 2.54 1.905)
+          (xy -2.54 1.905)
         )
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type none))
       )
     )
     (symbol "SWITCH_2PIN_1_1"
-      (pin passive inverted (at -7.62 0 0) (length 5.08)
+      (pin passive inverted (at -5.08 0 0) (length 3.81)
         (name "1" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin passive inverted (at 7.62 0 180) (length 5.08)
+      (pin passive inverted (at 5.08 0 180) (length 3.81)
         (name "2" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
