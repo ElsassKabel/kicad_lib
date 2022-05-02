@@ -1,0 +1,20 @@
+(footprint "MOUNTING_HOLE_M3_PAD" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 62702A13)
+  (descr "Mounting hole for M3 screw with pads (top, bot)")
+  (attr through_hole)
+  (fp_text reference "REF**" (at 0 -3.81 unlocked) (layer "F.SilkS") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 5fbbaf43-ba7f-44ca-83cd-b97297f0da6a)
+  )
+  (fp_text value "MOUNTING_HOLE_M3_PAD" (at 0 5.08 unlocked) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp d8d8e5cd-908c-4cc6-9c66-65441b9b9042)
+  )
+  (fp_text user "${REFERENCE}" (at 0 7.62 unlocked) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp ccf3d06b-f435-4793-b285-ca3c1bd459fa)
+  )
+  (pad "1" thru_hole circle (at 0 0) (size 6 6) (drill 3.1) (layers *.Cu *.Mask)
+    (solder_mask_margin 0.1) (tstamp 9f4f109a-7719-41d6-8056-6cbe1b40d34e))
+)
