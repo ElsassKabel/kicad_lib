@@ -1,6 +1,6 @@
 (footprint "MJ-4PP-9" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 626CF62F)
+  (tedit 627173D1)
   (descr "TRRS connector")
   (attr through_hole)
   (fp_text reference "REF**" (at 0 -1 unlocked) (layer "F.SilkS") hide
@@ -20,7 +20,7 @@
   (pad "" np_thru_hole circle (at 0 -4.4) (size 1 1) (drill 1) (layers F&B.Cu *.Mask) (tstamp dbdf2d02-16f4-455d-9ecf-e9ca499a5cb6))
   (pad "1" thru_hole oval (at -2.25 5.5) (size 1.7 2.2) (drill oval 1 1.5) (layers *.Cu *.Mask)
     (solder_mask_margin 0.1) (tstamp 4a0207bc-8dcb-4b6f-8d2c-137181114c7e))
-  (pad "2" thru_hole oval (at 2.25 4.3) (size 1.7 2.2) (drill oval 1 1.5) (layers *.Cu *.Mask)
+  (pad "2" thru_hole oval (at 2.25 4.4) (size 1.7 2.2) (drill oval 1 1.5) (layers *.Cu *.Mask)
     (solder_mask_margin 0.1) (tstamp 30cde442-c5a9-4ea9-a731-e546dbb28f1f))
   (pad "3" thru_hole oval (at 2.25 0.3) (size 1.7 2.2) (drill oval 1 1.5) (layers *.Cu *.Mask)
     (solder_mask_margin 0.1) (tstamp 50fe5a3d-c210-469c-bb71-512d5cea5518))
