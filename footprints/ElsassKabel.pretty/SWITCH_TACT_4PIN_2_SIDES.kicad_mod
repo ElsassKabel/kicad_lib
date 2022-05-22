@@ -1,6 +1,6 @@
-(footprint "TACT_SWITCH_4PIN" (version 20211014) (generator pcbnew)
+(footprint "SWITCH_TACT_4PIN_2_SIDES" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 626D396B)
+  (tedit 6289F744)
   (descr "Tactile switch 4 pins")
   (solder_mask_margin 0.1)
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp acfcaba7-a8b8-4c21-a793-d3e0373f34dc)
   )
-  (fp_text value "TACT_SWITCH_4PIN" (at 0 6.35 unlocked) (layer "F.Fab") hide
+  (fp_text value "SWITCH_TACT_4PIN_2_SIDES" (at 0 6.35 unlocked) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 6ae901e7-3f37-4fdc-9fbb-f82666744826)
   )
@@ -16,6 +16,8 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp b7ed4c31-5417-4fb5-9261-7dca42c1c776)
   )
+  (fp_rect (start 3 -3) (end -3 3) (layer "B.SilkS") (width 0.15) (fill none) (tstamp e89e487d-962c-468f-8748-4a78b03a2d87))
+  (fp_circle (center 0 0) (end -1.75 0) (layer "B.SilkS") (width 0.15) (fill none) (tstamp b41b8662-a47e-4e32-89cc-be25aca3d202))
   (fp_rect (start -3 -3) (end 3 3) (layer "F.SilkS") (width 0.15) (fill none) (tstamp 4bc286e0-6a16-4d35-a592-670f1762f921))
   (fp_circle (center 0 0) (end 1.75 0) (layer "F.SilkS") (width 0.15) (fill none) (tstamp a83a46a9-63ee-4d26-bfce-0ba963092218))
   (pad "1" thru_hole circle (at -3.25 -2.25) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) (tstamp e208ea3a-d990-4992-b395-c95b18b77f83))

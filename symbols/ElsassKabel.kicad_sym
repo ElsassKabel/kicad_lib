@@ -458,7 +458,7 @@
     (property "Datasheet" "" (id 3) (at 0 10.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "ElsassKabel:CHERRY_MX* ElsassKabel:TACT_SWITCH_2PIN*" (id 4) (at 0 0 0)
+    (property "ki_fp_filters" "ElsassKabel:SWITCH_CHERRY_MX* ElsassKabel:SWITCH_TACT_2PIN* ElsassKabel:SWITCH_KAILH_CHOC*" (id 4) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "SWITCH_2PIN_0_1"
@@ -503,7 +503,7 @@
     (property "Datasheet" "" (id 3) (at 0 10.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "ElsassKabel:TACT_SWITCH_4PIN*" (id 4) (at 0 0 0)
+    (property "ki_fp_filters" "ElsassKabel:SWITCH_TACT_4PIN*" (id 4) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "SWITCH_4PIN_0_1"
