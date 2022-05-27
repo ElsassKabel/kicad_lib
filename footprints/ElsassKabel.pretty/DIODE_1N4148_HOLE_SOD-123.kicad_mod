@@ -1,6 +1,6 @@
 (footprint "DIODE_1N4148_HOLE_SOD-123" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 628A0309)
+  (tedit 6290BCCE)
   (descr "Diode 1N4148 SOD-123")
   (attr smd)
   (fp_text reference "REF**" (at -0.008 -2.54 unlocked) (layer "F.SilkS") hide
@@ -29,6 +29,6 @@
     (solder_mask_margin 0.1) (tstamp 07f7b79b-8b8c-4762-bf37-e2c07e7ab000))
   (pad "2" smd rect (at 1.767 0) (size 1.4 1) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_mask_margin 0.1) (tstamp a092a142-0fc5-4521-a7c8-e8d2dcad2aeb))
-  (pad "2" thru_hole circle (at 4 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+  (pad "2" thru_hole rect (at 4 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
     (solder_mask_margin 0.1) (tstamp c941acbb-9f2d-4293-bc81-b525a71e9129))
 )
